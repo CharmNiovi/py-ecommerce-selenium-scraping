@@ -1,7 +1,7 @@
 import csv
 from dataclasses import dataclass, fields, asdict
 from urllib.parse import urljoin
-from tqdm import tqdm
+
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver import Chrome, ChromeOptions
 from selenium.webdriver.common.by import By
